@@ -77,6 +77,26 @@
             font-size: 28px;
             cursor: pointer;
         }
+        #btn{
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            opacity: 0;
+            visibility: hidden;
+            transition: 0.3s;
+        }
+        #btn a{
+            text-decoration: none;
+            color: #111827;
+            background: white;
+            border-radius: 50%;         
+            padding: 8px 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);    
+        }
+        #btn.show{
+            opacity: 1;
+            visibility: visible;
+        }
 
         /* GENERAL */
 

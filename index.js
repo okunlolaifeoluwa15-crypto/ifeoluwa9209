@@ -16,3 +16,14 @@
                 menuBtn.innerHTML = `<! class = "fa fa-bars"></!>`;
             });
         });
+window.addEventListener("scroll", () => {
+  topBtn.classList.toggle("show", window.scrollY > 200);
+});
+
+        window.addEventListener("scroll", () => {
+  if (window.scrollY > 1000) {
+    btn.classList.add("show");
+  } else {
+    btn.classList.remove("show");
+  }
+});
